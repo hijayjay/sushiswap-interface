@@ -103,7 +103,7 @@ const MenuItemInternal = styled(StyledInternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/sushiswap/sushiswap-interface'
+const CODE_LINK = 'https://thebestswap.net'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
@@ -123,11 +123,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="#">
+          <MenuItem id="link" href="https://thebestswap.org">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://sushiswap.gitbook.io/sushiswap/">
+          <MenuItem id="link" href="/">
             <BookOpen size={14} />
             Docs
           </MenuItem>
@@ -135,11 +135,11 @@ export default function Menu() {
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/NVPXN4e">
+          <MenuItem id="link" href="https://discord.gg/evM2Vrcfmb">
             <MessageCircle size={14} />
             Discord
           </MenuItem>
-          <MenuItem id="link" href="https://analytics.sushi.com/">
+          <MenuItem id="link" href="https://t.me/thebestswap">
             <PieChart size={14} />
             Analytics
           </MenuItem>

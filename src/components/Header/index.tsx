@@ -394,7 +394,7 @@ export default function Header() {
             </StyledNavLink>
           )}
           {chainId && (
-            <StyledExternalLink id={`analytics-nav-link`} href={'https://analytics.sushi.com'}>
+            <StyledExternalLink id={`analytics-nav-link`} href={'https://analytics.thebestswap.org'}>
               Analytics <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
           )}
@@ -438,7 +438,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                SUSHI
+                BEST
               </UNIAmount>
               <CardNoise />
             </UNIWrapper>
