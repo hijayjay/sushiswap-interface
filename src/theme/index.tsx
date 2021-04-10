@@ -32,7 +32,7 @@ const mediaWidthTemplates: { [width in keyof typeof MEDIA_WIDTHS]: typeof css } 
   {}
 ) as any
 
-const white = '#FFFFFF'
+const white = '#000000'
 const black = '#000000'
 
 export function colors(darkMode: boolean): Colors {
@@ -50,10 +50,10 @@ export function colors(darkMode: boolean): Colors {
 
     // backgrounds / greys
     bg1: darkMode ? '#18212e' : '#FFFFFF',
-    bg2: darkMode ? '#202d3f' : '#F7F8FA',
-    bg3: darkMode ? '#2a3a50' : '#EDEEF2',
-    bg4: darkMode ? '#3a506f' : '#CED0D9',
-    bg5: darkMode ? '#6C7284' : '#888D9B',
+    bg2: darkMode ? '#202d3f' : '#050B1E',
+    bg3: darkMode ? '#2a3a50' : '#161F42',
+    bg4: darkMode ? '#3a506f' : '#0B1F39',
+    bg5: darkMode ? '#6C7284' : '#465E9F',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
