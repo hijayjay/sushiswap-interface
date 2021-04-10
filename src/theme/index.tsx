@@ -45,15 +45,15 @@ export function colors(darkMode: boolean): Colors {
     text1: darkMode ? '#FFFFFF' : '#000000',
     text2: darkMode ? '#C3C5CB' : '#565A69',
     text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#DBDBDB',
-    text5: darkMode ? '#2C2F36' : '#DBDBDB',
+    text4: darkMode ? '#565A69' : '#E8FFFF',
+    text5: darkMode ? '#2C2F36' : '#E8FFFF',
 
     // backgrounds / greys
     bg1: darkMode ? '#18212e' : '#FFFFFF',
     bg2: darkMode ? '#202d3f' : '#050B1E',
     bg3: darkMode ? '#2a3a50' : '#161F42',
     bg4: darkMode ? '#3a506f' : '#0B1F39',
-    bg5: darkMode ? '#6C7284' : '#465E9F',
+    bg5: darkMode ? '#6C7284' : '#E8FFFF',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
