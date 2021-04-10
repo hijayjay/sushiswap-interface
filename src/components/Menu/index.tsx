@@ -103,7 +103,7 @@ const MenuItemInternal = styled(StyledInternalLink)`
   }
 `
 
-const CODE_LINK = 'https://thebestswap.net'
+const CODE_LINK = 'https://github.com/safechainfinance'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
@@ -123,25 +123,25 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://thebestswap.org">
+          <MenuItem id="link" href="https:/docs.safechain.finance">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="/">
+          <MenuItem id="link" href="https://t.me/SafeChainTeam">
             <BookOpen size={14} />
-            Docs
+            Community
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/evM2Vrcfmb">
+          <MenuItem id="link" href="https://t.me/SafeChainTeam">
             <MessageCircle size={14} />
-            Discord
+            Channel
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/thebestswap">
+          <MenuItem id="link" href="https://farm.safechain.finance">
             <PieChart size={14} />
-            Analytics
+            Farmers
           </MenuItem>
           <MenuItemInternal id="link" to="/tools">
             <Tool size={14} />
@@ -149,7 +149,7 @@ export default function Menu() {
           </MenuItemInternal>
           {/* {account && (
             <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderradius="20px" mt="0.5rem">
-              Claim UNI
+              Claim SAFEC
             </ButtonPrimary>
           )} */}
         </MenuFlyout>
