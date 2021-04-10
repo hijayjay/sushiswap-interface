@@ -125,7 +125,7 @@ export default function Pool() {
                   <RowFixed>
                     {/* <DoubleCurrencyLogo currency0={currency0} currency1={currency1} margin={true} size={20} /> */}
                     <Text fontWeight={500} fontSize={14}>
-                      One click xSafe → SafeC → FsafeChain
+                      One click xSafe → SafeC → xsafec
                     </Text>
                   </RowFixed>
                   <RowFixed>
